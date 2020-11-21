@@ -23,6 +23,9 @@ function setup() {
 
 function draw() {  
   background(46, 139, 87);
+  fill("red");
+  stroke("red");
+  text("Press Up-Arrow to feed dog", 200, 10);
   
   //add styles here
   if(keyWentDown(UP_ARROW) && foodS >0){
